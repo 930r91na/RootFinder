@@ -9,3 +9,5 @@ The main menu file, which also acts as our primary execution point, begins by pr
 Beyond simply providing the user with results, our program offers a feature to visualize the obtained data. This is achieved using the matplotlib.pyplot library.
 
 ## Authors
+@930r91na
+@DJ-lezama
