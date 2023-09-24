@@ -1,4 +1,5 @@
 import numpy as np
+import warnings
 
 def my_bisection(f, a, b, tol):
     if np.sign(f(a)) == np.sign(f(b)):
@@ -10,5 +11,7 @@ def my_bisection(f, a, b, tol):
         return my_bisection(f, m, b, tol) 
     elif np.sign(f(b)) == np.sign (f (m)):
         return my_bisection(f, a, m, tol)
+    else:
+        print("Error. No root found. Try different bounds.")
 
 
